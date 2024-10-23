@@ -169,16 +169,24 @@ INSERT INTO STUDENT VALUES
 (777888999, 'Laura', 'Garcia', '246 Birch St', 'Santa Ana', 'CA', 92701, 657, 5556789, 'Female', 'CPSC'),
 (888000999, 'David', 'Wilson', '369 Palm St', 'Garden Grove', 'CA', 92840, 714, 5559876, 'Male', 'ISDS'),
 (999111000, 'Sophia', 'Miller', '135 Willow St', 'Costa Mesa', 'CA', 92626, 949, 5551122, 'Female', 'CPSC'),
-(000222111, 'Daniel', 'Lopez', '789 Spruce St', 'Huntington Beach', 'CA', 92646, 714, 5552233, 'Male', 'ISDS');
-
-
+(000222111, 'Daniel', 'Lopez', '789 Spruce St', 'Huntington Beach', 'CA', 92646, 714, 5552233, 'Male', 'ISDS'),
+(111333444, 'Olivia', 'Anderson', '159 Oak St', 'Irvine', 'CA', 92618, 949, 5551357, 'Female', 'CPSC'),
+(222444555, 'James', 'Taylor', '753 Birch St', 'Tustin', 'CA', 92780, 714, 5552468, 'Male', 'ISDS'),
+(333555666, 'Isabella', 'Thomas', '852 Maple St', 'Anaheim', 'CA', 92805, 657, 5553697, 'Female', 'CPSC'),
+(444666777, 'Liam', 'Jackson', '654 Pine St', 'Brea', 'CA', 92821, 714, 5554567, 'Male', 'ISDS'),
+(555777888, 'Mia', 'White', '159 Cedar St', 'Orange', 'CA', 92866, 714, 5555678, 'Female', 'CPSC'),
+(666888999, 'Noah', 'Harris', '963 Elm St', 'Garden Grove', 'CA', 92840, 714, 5556789, 'Male', 'ISDS'),
+(777999000, 'Ava', 'Clark', '753 Birch St', 'Santa Ana', 'CA', 92701, 657, 5557890, 'Female', 'CPSC'),
+(888111222, 'Lucas', 'Lewis', '258 Palm St', 'Costa Mesa', 'CA', 92626, 949, 5558901, 'Male', 'ISDS'),
+(999222333, 'Zoe', 'Robinson', '369 Willow St', 'Huntington Beach', 'CA', 92646, 714, 5559012, 'Female', 'CPSC'),
+(000333444, 'Ethan', 'Hall', '147 Cedar St', 'Fullerton', 'CA', 92831, 714, 5550123, 'Male', 'ISDS'),
+(111444555, 'Emma', 'Young', '258 Elm St', 'Irvine', 'CA', 92618, 949, 5551234, 'Female', 'CPSC');
 
 
 
 
 
 INSERT INTO ENROLLMENT_RECORD VALUES
-
 (30021, 111222333, 01, 'A'),
 (30022, 222333444, 02, 'B-'),
 (30023, 333444555, 03, 'C'),
@@ -188,5 +196,16 @@ INSERT INTO ENROLLMENT_RECORD VALUES
 (30027, 777888999, 01, 'A-'),
 (30028, 888000999, 02, 'D+'),
 (30029, 999111000, 03, 'A'),
-(30030, 000222111, 04, 'C');
+(30030, 000222111, 04, 'C'),
+(30031, 111333444, 01, 'B'),
+(30032, 222444555, 02, 'C+'),
+(30033, 333555666, 03, 'A'),
+(30034, 444666777, 04, 'B-'),
+(30035, 555777888, 05, 'A'),
+(30036, 666888999, 06, 'C'),
+(30037, 777999000, 01, 'D'),
+(30038, 888111222, 02, 'B'),
+(30039, 999222333, 03, 'A-'),
+(30040, 000333444, 04, 'B+'),
+(30041, 111444555, 05, 'C+');
 
