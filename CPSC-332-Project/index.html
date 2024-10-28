@@ -196,17 +196,21 @@
             days and time of your classes</p>
         <form action="ssnprof.php" method="POST">
             <label for="SSN">SSN: </label>
-            <input type="text" name="SSN"><br>
-            <input type="submit" value="Submit">
+            <input type="text" name="SSN" required><br>
+            <input type="submit" value="Submit" required>
         </form>
-        <p>Please enter a course number and a section number, if you want to list how many students get each distinct grade</p>
+        <p>Please enter a course number , a deperatment number and a section number, if you want to list how many students get each distinct grade</p>
         <form action="courseandsectionnumprof.php" method="POST">
             <label for="CourseNumber">Course Number: </label>
-            <input type="text" name="CourseNumber"><br>
-
+            <input type="text" name="CourseNumber" required><br>
             <label for="SectionNumber">Section Number: </label>
-            <input type="text" name="SectionNumber"><br>
-            <input type="submit" value="Submit">
+            <input type="text" name="SectionNumber" required><br>
+            <label for="DepartmentNumber">Department Number: </label>
+            <input type="text" name="DepartmentNumber" required><br>
+
+
+
+            <input type="submit" value="Submit" required>
         </form>
     </div>
 
@@ -219,14 +223,19 @@
         <p>Please enter course number if you want  list the sections of the course, including the classrooms, the meeting days and time, and the number of students enrolled in each section.</p>
         <form action="coursenumstud.php" method="POST">
             <label for="CourseNumber">Course Number: </label>
-            <input type="text" name="CourseNumber"><br>
-            <input type="submit" value="Submit">
+            <input type="text" name="CourseNumber" required><br>
+            <label for="DepartmentNumber">Department Number: </label>
+            <input type="text" name="DepartmentNumber" required><br>
+
+
+
+            <input type="submit" value="Submit" required>
         </form>
         <p>Please enter your Campus Wide ID if you want to list all the courses you've taken and the grades</p>
         <form action="cwidstud.php" method="POST">
             <label for="CWID">CWID: </label>
-            <input type="text" name="CWID"><br>
-            <input type="submit" value="Submit">
+            <input type="text" name="CWID" required><br>
+            <input type="submit" value="Submit" required>
         </form>
 
     </div>
