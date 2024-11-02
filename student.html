@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" >
+
+    <title>Student Database</title>
+
+    <style>
+         *{
+            background-color: aquamarine;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+
+        header {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        #professor{
+            background-color: aliceblue;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+
+        }
+
+        
+
+        #professor form{
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+        #professor form label{
+
+            background-color: aliceblue;
+        }
+
+        #professor form input[type="submit"]{
+        background-color: #28a783; /* Green color for submit buttons */
+        cursor: pointer;
+        margin-bottom: 5px;
+        transition: background-color 0.3s ease; /* Transition for a smooth color change */
+        }
+
+
+
+        #professor form  input[type="text"] {
+        background-color: #eaa466; /* Green color for submit buttons */
+        cursor: pointer;
+        margin-bottom: 5px;
+        transition: background-color 0.3s ease; /* Transition for a smooth color change */
+        }
+
+        #professor form  input[type="submit"]:hover {
+            background-color: #218838; /* Darker green on hover for feedback */
+        }
+
+
+
+
+
+
+
+        #professor h2{
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+
+        #professor p{
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+
+
+
+        #student{
+            background-color: aliceblue;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+
+        }
+
+        
+
+        #student form{
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+        #student form label{
+
+            background-color: aliceblue;
+        }
+
+        #student form input[type="submit"]{
+        background-color: #28a783; /* Green color for submit buttons */
+        cursor: pointer;
+        margin-bottom: 5px;
+        transition: background-color 0.3s ease; /* Transition for a smooth color change */
+        }
+
+
+
+        #student form input[type="text"] {
+        background-color: #eaa466; /* Green color for submit buttons */
+        cursor: pointer;
+        margin-bottom: 5px;
+        transition: background-color 0.3s ease; /* Transition for a smooth color change */
+        }
+
+        #student form  input[type="submit"]:hover {
+            background-color: #218838; /* Darker green on hover for feedback */
+        }
+
+
+
+
+
+
+
+        #student h2{
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+
+        #student p{
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: center;
+
+        }
+        #nav-item{
+
+margin-bottom: 30px;
+text-decoration: none;
+align-items: center;
+text-align: center;
+font-weight: 100px;
+font-family:"Lucida Console", "Courier New", monospace;
+}
+
+#nav-link {
+
+text-decoration: none;
+font-weight: 100px;
+font-family:"Lucida Console", "Courier New", monospace;
+
+}
+
+
+#nav-link:hover {
+
+color:cornflowerblue;
+font-weight: 100px;
+font-family:"Lucida Console", "Courier New", monospace;
+
+}
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <h1>Student Database</h1>
+        <p>Welcome to the Student Database</p>
+        <hr>
+    </header>
+
+     <div id="menu">
+
+        <h1>Return to homepage</h1>
+        
+        <p><a id="nav-link" href="index.html">Homepage</a></p>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div id="student">
+
+        <h2>For Students</h2>
+        <p>Please enter course number if you want  list the sections of the course, including the classrooms, the meeting days and time, and the number of students enrolled in each section.</p>
+        <form action="coursenumstud.php" method="POST">
+            <label for="CourseNumber">Course Number: </label>
+            <input type="text" name="CourseNumber" required><br>
+            <label for="DepartmentNumber">Department Number: </label>
+            <input type="text" name="DepartmentNumber" required><br>
+
+
+
+            <input type="submit" value="Submit" required>
+        </form>
+        <p>Please enter your Campus Wide ID if you want to list all the courses you've taken and the grades</p>
+        <form action="cwidstud.php" method="POST">
+            <label for="CWID">CWID: </label>
+            <input type="text" name="CWID" required><br>
+            <input type="submit" value="Submit" required>
+        </form>
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
