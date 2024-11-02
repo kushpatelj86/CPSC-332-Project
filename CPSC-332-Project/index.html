@@ -168,6 +168,44 @@
 
 
 
+        #pages {
+            text-decoration: none;
+            align-items: center;
+            text-align: center;
+            list-style-type: none;
+
+        }
+
+
+
+
+        #nav-item{
+
+            margin-bottom: 30px;
+            text-decoration: none;
+            align-items: center;
+            text-align: center;
+            font-weight: 100px;
+            font-family:"Lucida Console", "Courier New", monospace;
+        }
+
+        #nav-link {
+
+            text-decoration: none;
+            font-weight: 100px;
+            font-family:"Lucida Console", "Courier New", monospace;
+
+        }
+
+
+        #nav-link:hover {
+
+            color:cornflowerblue;
+            font-weight: 100px;
+            font-family:"Lucida Console", "Courier New", monospace;
+
+        }
+
 
     </style>
 
@@ -184,61 +222,35 @@
 
     <header>
 
-        <h1>University Database</h1>
+        <h2>University Database</h2>
         <p>Welcome to the University Database</p>
         <hr>
     </header>
 
+        <div  id="menu">
+            <ul id="pages">
 
-    <div id="professor">
-        <h2>For Professors</h2>
-        <p>Please enter the SSN if you want to list the titles, classrooms, meeting
-            days and time of your classes</p>
-        <form action="ssnprof.php" method="POST">
-            <label for="SSN">SSN: </label>
-            <input type="text" name="SSN" required><br>
-            <input type="submit" value="Submit" required>
-        </form>
-        <p>Please enter a course number , a deperatment number and a section number, if you want to list how many students get each distinct grade</p>
-        <form action="courseandsectionnumprof.php" method="POST">
-            <label for="CourseNumber">Course Number: </label>
-            <input type="text" name="CourseNumber" required><br>
-            <label for="SectionNumber">Section Number: </label>
-            <input type="text" name="SectionNumber" required><br>
-            <label for="DepartmentNumber">Department Number: </label>
-            <input type="text" name="DepartmentNumber" required><br>
+                <h1>Click on either Professor or Student to continue</h1>
+              
+                <li id="nav-item">
+                  <a id="nav-link" href="professor.html">Professor</a>
+                </li>
+                <li id="nav-item">
+                  <a id="nav-link" href="student.html"> Student
+                  </a>
+                </li>
 
-
-
-            <input type="submit" value="Submit" required>
-        </form>
-    </div>
+              </ul>
+        </div>
 
 
 
 
-    <div id="student">
-
-        <h2>For Students</h2>
-        <p>Please enter course number if you want  list the sections of the course, including the classrooms, the meeting days and time, and the number of students enrolled in each section.</p>
-        <form action="coursenumstud.php" method="POST">
-            <label for="CourseNumber">Course Number: </label>
-            <input type="text" name="CourseNumber" required><br>
-            <label for="DepartmentNumber">Department Number: </label>
-            <input type="text" name="DepartmentNumber" required><br>
 
 
 
-            <input type="submit" value="Submit" required>
-        </form>
-        <p>Please enter your Campus Wide ID if you want to list all the courses you've taken and the grades</p>
-        <form action="cwidstud.php" method="POST">
-            <label for="CWID">CWID: </label>
-            <input type="text" name="CWID" required><br>
-            <input type="submit" value="Submit" required>
-        </form>
 
-    </div>
+
 
 
 
