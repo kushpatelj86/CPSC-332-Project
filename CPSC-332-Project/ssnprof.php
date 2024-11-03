@@ -26,7 +26,7 @@
 
     $ssnProf = $_POST["SSN"];
 
-    //$con = new mysqli("localhost","root","","universitydb");
+    $con = new mysqli("localhost","root","","universitydb");
     if($con->connect_error)
     {
         echo "SSN: ", $ssnProf, "<br>";
