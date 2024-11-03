@@ -155,13 +155,13 @@ INSERT INTO COURSE VALUES
 
 
 INSERT INTO COURSE_SECTION VALUES
-(01, 488, 'CPSC', 'CS 101', 45, 'M/W', '7:00 PM', '9:45 PM', 765626466),
-(02, 351, 'CPSC', 'CS 110A', 35, 'T/TH', '1:00 PM', '2:15 PM', 543565396),
-(03, 351, 'CPSC', 'CS 110A', 35, 'T/TH', '7:00 PM', '8:15 PM', 543565396),
-(03, 332, 'CPSC', 'CS 208', 35, 'T', '1:00 PM', '3:15 PM', 123456789),
-(04, 332, 'CPSC', 'CS 101', 45, 'M/W', '11:00 AM', '12:50 PM', 765626466),
-(05, 418, 'ISDS', 'CS 300', 35, 'T/TH', '4:00 PM', '5:15 PM', 543565396),
-(06, 309, 'ISDS', 'CS 208', 35, 'T', '4:00 PM', '6:15 PM', 123456789);
+(1, 488, 'CPSC', 'CS 101', 45, 'M/W', '7:00 PM', '9:45 PM', 765626466),
+(2, 351, 'CPSC', 'CS 110A', 35, 'T/TH', '1:00 PM', '2:15 PM', 543565396),
+(3, 351, 'CPSC', 'CS 110A', 35, 'T/TH', '7:00 PM', '8:15 PM', 543565396),
+(3, 332, 'CPSC', 'CS 208', 35, 'T', '1:00 PM', '3:15 PM', 123456789),
+(4, 332, 'CPSC', 'CS 101', 45, 'M/W', '11:00 AM', '12:50 PM', 765626466),
+(5, 418, 'ISDS', 'CS 300', 35, 'T/TH', '4:00 PM', '5:15 PM', 543565396),
+(6, 309, 'ISDS', 'CS 208', 35, 'T', '4:00 PM', '6:15 PM', 123456789);
 
 
 INSERT INTO STUDENT VALUES
@@ -195,16 +195,16 @@ INSERT INTO ENROLLMENT_RECORD VALUES
 (1, 111222333, 01, 488, 'CPSC', 'A'),  -- John Doe enrolled in CS 101 for course section 488
 (2, 222333444, 02, 351, 'CPSC', 'B'),  -- Jane Smith enrolled in CS 110A for course section 351
 (3, 333444555, 03, 351, 'CPSC', 'A'),  -- Emily Johnson enrolled in CS 110A for course section 351
-(4, 444555666, 04, 332, 'CPSC', 'C'),  -- Michael Brown enrolled in CS 101 for course section 332
+(4, 333444555, 04, 332, 'CPSC', 'C'),  -- Michael Brown enrolled in CS 101 for course section 332
 (5, 555666777, 05, 418, 'ISDS', 'B'),  -- Jessica Davis enrolled in CS 300 for course section 418
-(6, 666777888, 06, 309, 'ISDS', 'B'),  -- Chris Martinez enrolled in CS 208 for course section 309
+(6, 555666777, 06, 309, 'ISDS', 'B'),  -- Chris Martinez enrolled in CS 208 for course section 309
 (7, 777888999, 01, 488, 'CPSC', 'A'),  -- Laura Garcia enrolled in CS 101 for course section 488
-(8, 888000999, 02, 351, 'CPSC', 'B'),  -- David Wilson enrolled in CS 110A for course section 351
+(8, 777888999, 02, 351, 'CPSC', 'B'),  -- David Wilson enrolled in CS 110A for course section 351
 (9, 999111000, 03, 351, 'CPSC', 'A'),  -- Sophia Miller enrolled in CS 110A for course section 351
 (10, 000222111, 04, 332, 'CPSC', 'C'), -- Daniel Lopez enrolled in CS 101 for course section 332
 (11, 111333444, 05, 418, 'ISDS', 'B'), -- Olivia Anderson enrolled in CS 300 for course section 418
-(12, 222444555, 06, 309, 'ISDS', 'B'), -- James Taylor enrolled in CS 208 for course section 309
-(13, 333555666, 01, 488, 'CPSC', 'A'), -- Isabella Thomas enrolled in CS 101 for course section 488
+(12, 111333444, 06, 309, 'ISDS', 'B'), -- James Taylor enrolled in CS 208 for course section 309
+(13, 111333444, 01, 488, 'CPSC', 'A'), -- Isabella Thomas enrolled in CS 101 for course section 488
 (14, 444666777, 02, 351, 'CPSC', 'B'), -- Liam Jackson enrolled in CS 110A for course section 351
 (15, 555777888, 03, 351, 'CPSC', 'A'), -- Mia White enrolled in CS 110A for course section 351
 (16, 666888999, 03, 332, 'CPSC', 'C'), -- Noah Harris enrolled in CS 101 for course section 332
